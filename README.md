@@ -1,0 +1,1 @@
+Example template for a README file
