@@ -1,0 +1,15 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Template description",
+  "private": true,
+  "scripts": {
+    "test": "vitest run"
+  },
+  "author": "Santi Roldán",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^2.0.5"
+  }
+}
