@@ -4,6 +4,11 @@
   "description": "Template description",
   "private": true,
   "scripts": {
+    "lint-staged": {
+      "*.{ts,json}": [
+        "biome check --apply"
+      ]
+    },
     "prepare": "husky install",
     "test": "vitest run"
   },
@@ -12,6 +17,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
     "typescript": "^5.4.5",
     "vitest": "^2.0.5"
   }
