@@ -4,6 +4,7 @@
   "description": "Template description",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
     "test": "vitest run"
   },
   "author": "Santiago Roldán",
