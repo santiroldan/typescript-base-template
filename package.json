@@ -9,6 +9,7 @@
   "author": "Santiago Roldán",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "typescript": "^5.4.5",
     "vitest": "^2.0.5"
   }
